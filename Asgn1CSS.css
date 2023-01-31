@@ -1,17 +1,40 @@
+.navbar{
+    display: flex;
+}
+.navTitle{
+ justify-content:flex-end;
+}
+.imgHolder{
+    position: relative;
+    
+}
+.text{
+    position:absolute;
+    top:
+    left:
+}
+.imgButton{
+    padding: 15px;
+}
 .grid-container{
     display: grid;
     justify-content: center;
     grid-template-columns: 20% 20% 20% 20%;
     grid-gap:15px;
+    margin-top: 3%;
 }
-.grid-item{
-    border: 1px solid black;
-    object-fit: cover;
-} 
+
+h4{
+    margin-top: 5%;
+}
+/* .grid-item{
+    border: 1px solid black; 
+    object-fit: cover; 
+} */
 
 img{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 .center{
     text-align: center;
@@ -36,7 +59,7 @@ input[type=submit] {
 
 div footer{
     background-color: black;
-    margin: 0 2% 0 2%;
+    margin: 0 2% 2% 2%;
     padding: 15px;
     text-align: center;
     color: white;
@@ -54,30 +77,32 @@ footer p a{
 }
 .elements {
     display:grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    gap: 10px;;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 10px;
 }
 .items{
     text-align: center;
 }
-article{
-    margin: 5% 2% 0 2%;
-}
-.content{
+.alignment{
     margin: 5% 2% 0 2%;
 }
 .background-grey{
     background-color: rgb(224, 224, 224);
+    
 }
 .background-black{
-    background-color: black;
+    background-color: rgb(133, 130, 130);
     color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 2% 0 2% 0;
 }
 .holder{
-    padding-top: 10%;
+    padding: 8% 2% 8% 2%;
+    display:grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 3%;
 }
 .holder button{
     padding: 15px;
@@ -88,4 +113,11 @@ article{
 .holder button a{
     color: white;
     text-decoration: none;
+}
+.higher-font{
+    font-size:150%;
+    text-align: center;
+}
+.nodecor a{
+    text-decoration:none ;
 }
