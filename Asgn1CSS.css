@@ -1,123 +1,176 @@
-.navbar{
-    display: flex;
+.navbar {
+    list-style-type: none;
+    margin-top: 2%;
+    display: inline;
+    overflow: auto;
 }
-.navTitle{
- justify-content:flex-end;
+
+.navList {
+    float: right;
+    padding: 0 2% 1% 2%;
+
 }
-.imgHolder{
+
+.logo {
+    float: left;
+    margin-left: 2%;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.imgHolder {
     position: relative;
-    
+    margin: 0 2% 0 2%;
 }
-.text{
-    position:absolute;
-    top:
-    left:
+
+.text {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    color: white;
+    font-size: 2vw;
+    line-height: 50px;
 }
-.imgButton{
-    padding: 15px;
+
+.imgButton {
+    padding: 2%;
+    border-radius: 0%;
+    opacity: 0.7;
 }
-.grid-container{
+
+.gridContainer {
     display: grid;
     justify-content: center;
-    grid-template-columns: 20% 20% 20% 20%;
-    grid-gap:15px;
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+    grid-gap: 10px;
     margin-top: 3%;
 }
 
-h4{
+.imgPlace {
+    object-fit: cover;
+}
+
+h4 {
     margin-top: 5%;
 }
-/* .grid-item{
-    border: 1px solid black; 
-    object-fit: cover; 
-} */
 
-img{
+img {
     width: 100%;
     height: 100%;
 }
-.center{
+
+.center {
     text-align: center;
 }
-.form-container{
- background-color: rgb(226, 226, 226);
- margin: 5% 2% 0 2%;
- padding: 15px;
+
+.formContainer {
+    background-color: rgb(226, 226, 226);
+    margin: 5% 2% 0 2%;
+    padding: 15px;
 }
-form > input{
+
+form>input {
     padding-left: 5px;
     height: 35px;
     width: 97%;
 }
+
 input[type=submit] {
     padding: 15px;
-    background :black;
+    background: black;
     color: white;
     border: 0 none;
     cursor: pointer;
 }
 
-div footer{
+footer {
     background-color: black;
     margin: 0 2% 2% 2%;
     padding: 15px;
     text-align: center;
     color: white;
 }
-footer button{
-    margin-top: 20px;;
+
+footer button {
+    margin-top: 20px;
+    ;
     height: 30px;
     border-radius: 0%;
     background-color: white;
     /* text-decoration: none; */
 }
-footer p a{
-    
+
+footer p a {
     color: white;
 }
+
 .elements {
-    display:grid;
-    grid-template-columns: 24% 24% 24% 24%;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+    grid-gap: 2%;
 }
-.items{
+
+.items {
     text-align: center;
+    height: max-content;
 }
-.alignment{
+
+.icon {
+    object-fit: contain;
+    height: 18%;
+    width: 50%;
+}
+
+.alignment {
     margin: 5% 2% 0 2%;
 }
-.background-grey{
+
+.backgroundGrey {
     background-color: rgb(224, 224, 224);
-    
+
 }
-.background-black{
+
+.backgroundDark {
     background-color: rgb(133, 130, 130);
     color: white;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around; */
     padding: 2% 0 2% 0;
+    display: grid;
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+    grid-gap: 2%;
+    text-align: center;
+
 }
-.holder{
+
+.holder {
     padding: 8% 2% 8% 2%;
-    display:grid;
+    display: grid;
     grid-template-columns: 48% 48%;
     grid-gap: 3%;
 }
-.holder button{
+
+.holder button {
     padding: 15px;
-    background :black;
+    background: black;
     border: 0 none;
     cursor: pointer;
 }
-.holder button a{
+
+.holder button a {
     color: white;
     text-decoration: none;
 }
-.higher-font{
-    font-size:150%;
+
+.higherFont {
+    font-size: 150%;
     text-align: center;
 }
-.nodecor a{
-    text-decoration:none ;
+
+.nodecor a {
+    text-decoration: none;
 }
